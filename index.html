@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vision Safety India | Fire &amp; Safety Solutions, SCBA &amp; PAPR, Goa</title>
+  <meta name="description" content="Vision Safety India, founded in 1997. End-to-end fire safety solutions, fire extinguishers, hydrant systems, SCBA and PAPR sales and service. Verna Industrial Estate, Goa.">
+  <link rel="icon" href="assets/img/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Vision Safety India home">
+        <img src="assets/img/logo.png" alt="Vision Safety India logo">
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li class="has-dropdown">
+            <button type="button" class="nav-drop-toggle" aria-expanded="false" aria-haspopup="true">
+              Products <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown" data-category-list></ul>
+          </li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#breathing">Breathing</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#csr">CSR</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+919326127464" class="header-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 93261 27464</a>
+        <a href="#contact" class="btn header-cta">Contact Us</a>
+        <button type="button" class="menu-toggle" id="menuOpen" aria-label="Open menu" aria-controls="mobileMenu" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PHONE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+    <div class="mobile-menu-top">
+      <a href="#home" class="logo" data-menu-link><img src="assets/img/logo.png" alt="Vision Safety India logo"></a>
+      <button type="button" class="menu-close" id="menuClose" aria-label="Close menu"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </div>
+    <nav class="mobile-menu-body" aria-label="Mobile">
+      <ul>
+        <li><a href="#home" data-menu-link>Home</a></li>
+        <li><a href="#about" data-menu-link>About Us</a></li>
+        <li>
+          <a href="#products" data-menu-link>Products</a>
+          <ul class="mobile-sub" data-category-list></ul>
+        </li>
+        <li><a href="#services" data-menu-link>Services</a></li>
+        <li><a href="#breathing" data-menu-link>Breathing Solutions</a></li>
+        <li><a href="#videos" data-menu-link>Videos</a></li>
+        <li><a href="#team" data-menu-link>Team</a></li>
+        <li><a href="#clients" data-menu-link>Clients</a></li>
+        <li><a href="#rooms" data-menu-link>Meeting Rooms</a></li>
+        <li><a href="#csr" data-menu-link>CSR</a></li>
+        <li><a href="#contact" data-menu-link>Contact Us</a></li>
+      </ul>
+      <a href="tel:+919326127464" class="mobile-phone"><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 93261 27464</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-slides" id="heroSlides">
+        <img class="hero-slide is-active" src="assets/img/hero-bg.jpg" alt="Vision Safety head office building" data-title="India's top Fire &amp; Safety Provider" data-line="Head office, Verna Industrial Estate, Goa.">
+        <img class="hero-slide" src="assets/img/bg-55.jpg" alt="Fire extinguishers in the Vision Safety service station" data-title="End-to-end fire safety solutions" data-line="Designed, supplied, installed &amp; certified." loading="lazy">
+        <img class="hero-slide" src="assets/img/s-scba.jpg" alt="Technician servicing a breathing apparatus" data-title="Breathing air specialists" data-line="Sales &amp; service of SCBA and PAPR." loading="lazy">
+        <img class="hero-slide" src="assets/img/s-ext.jpg" alt="Servicing of fire extinguishers" data-title="Protecting human lives at workplace" data-line="Our baseline since 1997." loading="lazy">
+        <img class="hero-slide" src="assets/img/bg-10.jpg" alt="Hose binding at the Vision Safety workshop" data-title="Approved fire protection contractor" data-line="Dir. Fire &amp; Emergency Services, Govt of Goa." loading="lazy">
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-caption" aria-live="polite">
+        <h1 class="hero-title" id="heroTitle">India's top Fire &amp; Safety Provider</h1>
+        <p class="hero-line" id="heroLine">Head office, Verna Industrial Estate, Goa.</p>
+        <a href="#contact" class="btn btn-sm">Contact Us</a>
+      </div>
+
+      <button type="button" class="hero-arrow hero-prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+      <button type="button" class="hero-arrow hero-next" aria-label="Next slide"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+      <div class="hero-dots" id="heroDots" role="group" aria-label="Choose slide"></div>
+    </section>
+
+    <!-- STATS -->
+    <!-- Projects and Clients values are placeholders (data-placeholder) until the owner confirms real numbers. -->
+    <section class="stats" aria-label="Vision Safety in numbers">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-num"><span data-count="30">30</span><em>+</em></span>
+          <span class="stat-label">Years of Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num"><span data-count="1000" data-placeholder>1,000</span><em>+</em></span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num"><span data-count="60">60</span><em>+</em></span>
+          <span class="stat-label">Team Members</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num"><span data-count="500" data-placeholder>500</span><em>+</em></span>
+          <span class="stat-label">Clients Served</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="section" id="credentials">
+      <div class="container">
+        <p class="kicker">Our Credentials</p>
+        <h2 class="heading-left">Vision Safety India - Your Trusted Safety Equipment Supplier</h2>
+        <ul class="cred-grid">
+          <li class="cred">
+            <i class="fa-solid fa-file-signature" aria-hidden="true"></i>
+            <div><h3>Professional Member FSAI</h3><p>Professional Member FSAI.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+            <div><h3>Major Fire &amp; Safety Suppliers</h3><p>Serving the industry with trust for more than 25 years.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-landmark" aria-hidden="true"></i>
+            <div><h3>Approved Contractor</h3><p>Supply, installation / maintenance of fire protection systems. (Dir. Fire and Emergency Services, Govt. of Goa)</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-globe" aria-hidden="true"></i>
+            <div><h3>All India Importers / Distributors</h3><p>Authorized importers and distributors for Bullard Co., USA.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-fire" aria-hidden="true"></i>
+            <div><h3>Member - NFPA, USA</h3><p>Member - National Fire Protection Association (NFPA), USA.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-kit-medical" aria-hidden="true"></i>
+            <div><h3>Life Member - NSC India</h3><p>Life member of the National Safety Council (NSC) India.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-lungs" aria-hidden="true"></i>
+            <div><h3>Importer / Assembling &amp; PESO Testing</h3><p>Importer, assembling &amp; PESO testing of EN 137 SCBA (Breathing Apparatus) kits.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-fire-extinguisher" aria-hidden="true"></i>
+            <div><h3>EN3 Approved Fire Extinguishers</h3><p>EN3 approved fire extinguishers / Trace Tube Auto Systems (with fire ratings).</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-spray-can-sparkles" aria-hidden="true"></i>
+            <div><h3>Clean Agent FE 227 / FE 236</h3><p>Gas &amp; mist fire suppression systems (UL/FM Approved).</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-head-side-mask" aria-hidden="true"></i>
+            <div><h3>Sales &amp; Service</h3><p>Sales &amp; service of self contained breathing apparatus &amp; powered air purifying respirators.</p></div>
+          </li>
+          <li class="cred">
+            <i class="fa-solid fa-mask-face" aria-hidden="true"></i>
+            <div><h3>SITRA / CE Mark Products</h3><p>Manufacturers of SITRA / CE mark V-Safe 3 ply masks and N95 masks.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-text">
+          <p>Founded in 1997, Vision Safety India is a professionally registered company delivering complete safety solutions across Marine, Industrial, Fire and Workplace Breathing Air, built on dedication, trust and integrity. Our baseline says it all: "Protecting Human Lives at Workplace."</p>
+          <p>We go far beyond supply. From consultancy and design to installation, testing, commissioning and NOC compliance, we are your single point of contact for complete fire and safety protection.</p>
+        </div>
+
+        <figure class="about-illustration">
+          <img src="assets/img/horse.png" alt="Illustration: when your client asks if you can do it cheaper, half real horse, half stick drawing" loading="lazy">
+        </figure>
+
+        <div class="mv-grid">
+          <div class="mv-item">
+            <i class="fa-solid fa-bullseye" aria-hidden="true"></i>
+            <h3>Our Mission</h3>
+            <p>To be among India's best fire &amp; safety suppliers, giving customers superior, quality safety equipment at cost-benefit options, with quality in every process from start to end.</p>
+          </div>
+          <div class="mv-item">
+            <i class="fa-solid fa-eye" aria-hidden="true"></i>
+            <h3>Our Vision</h3>
+            <p>To be India's most efficient fire &amp; safety partner, so every customer has what they need to stay safe on the job, backed by the best sales and service of SCBA and PAPR.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">From the first drawing to the final certificate, and every service visit after.</p>
+        <div class="services-grid">
+          <article class="card service">
+            <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+            <h3>Consultancy &amp; Design</h3>
+            <p>Site surveys and fire protection system design matched to your risk and the applicable codes.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>
+            <h3>Supply &amp; Installation</h3>
+            <p>Approved contractor for supply, installation and maintenance of fire protection systems.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+            <h3>Testing, Commissioning &amp; NOC</h3>
+            <p>System testing, commissioning and support through fire NOC compliance.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-fire-extinguisher" aria-hidden="true"></i>
+            <h3>Fire Extinguisher Servicing</h3>
+            <p>Inspection, refilling and servicing of all types of extinguishers at our service station.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-bell" aria-hidden="true"></i>
+            <h3>Fire Detection &amp; Alarm</h3>
+            <p>Testing and service of fire detection and alarm systems.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+            <h3>Hydrostatic Cylinder Testing</h3>
+            <p>Hydrostatic pressure testing of high pressure cylinders as per PESO.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-wind" aria-hidden="true"></i>
+            <h3>Gas Monitor Calibration</h3>
+            <p>Calibration and certification of portable and fixed gas monitors.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-car-battery" aria-hidden="true"></i>
+            <h3>Power Pack Servicing</h3>
+            <p>Servicing of power packs to keep your equipment ready when it matters.</p>
+          </article>
+          <article class="card service">
+            <i class="fa-solid fa-industry" aria-hidden="true"></i>
+            <h3>Welding &amp; Fabrication</h3>
+            <p>In-house welding work for fire system fittings and site requirements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section" id="products">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">Fire extinguishers of various types (CO2, DCP, AFFF, water, clean agent), hydrant and hose systems, and safety equipment.</p>
+        <div class="filters" id="productFilters" role="group" aria-label="Filter products"></div>
+        <div class="gallery" id="productGallery"></div>
+      </div>
+    </section>
+
+    <!-- BREATHING SOLUTIONS -->
+    <section class="section" id="breathing">
+      <div class="container">
+        <p class="eyebrow">Respiratory Protection</p>
+        <h2 class="section-title">Breathing Solutions</h2>
+        <p class="section-subtitle">Two brands, one goal: clean, safe air for every worker.</p>
+
+        <div class="brand-grid">
+          <article class="card brand">
+            <h3 class="brand-name">Vision Air</h3>
+            <ul class="brand-list">
+              <li><i class="fa-solid fa-lungs" aria-hidden="true"></i><div><strong>SCBA</strong><span>EN 137 self contained breathing apparatus, assembled and PESO tested.</span></div></li>
+              <li><i class="fa-solid fa-dolly" aria-hidden="true"></i><div><strong>BA Trolley</strong><span>Mobile breathing air supply for long-duration work.</span></div></li>
+              <li><i class="fa-solid fa-fan" aria-hidden="true"></i><div><strong>PAPR, NIOSH approved</strong><span>Powered air purifying respirators with sales and service.</span></div></li>
+              <li><i class="fa-solid fa-rotate" aria-hidden="true"></i><div><strong>Refilling of Breathing Cylinders</strong><span>Breathing air filling station at our Verna facility.</span></div></li>
+            </ul>
+          </article>
+          <article class="card brand">
+            <h3 class="brand-name">VSafe</h3>
+            <ul class="brand-list">
+              <li><i class="fa-solid fa-head-side-mask" aria-hidden="true"></i><div><strong>N95 Masks</strong><span>Manufactured by us to SITRA / CE mark standards.</span></div></li>
+              <li><i class="fa-solid fa-mask-face" aria-hidden="true"></i><div><strong>3 Ply Masks</strong><span>SITRA / CE mark V-Safe 3 ply masks.</span></div></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="gallery gallery-strip" id="breathingGallery"></div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="section" id="videos">
+      <div class="container">
+        <h2 class="section-title">Video Gallery</h2>
+        <p class="section-subtitle">Product demonstrations, fire rating tests and a look inside Vision Safety.</p>
+        <div class="filters" id="videoFilters" role="group" aria-label="Filter videos"></div>
+
+        <div class="vg">
+          <div class="vg-stage">
+            <div class="vg-player" id="vgPlayer">
+              <button type="button" class="vg-poster" id="vgPoster" aria-label="Play video">
+                <img id="vgPosterImg" src="" alt="">
+                <span class="vg-play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+              </button>
+            </div>
+            <div class="vg-meta">
+              <span class="vg-tag" id="vgTag"></span>
+              <h3 id="vgTitle"></h3>
+              <p id="vgDesc"></p>
+              <a id="vgLink" class="vg-link" href="#" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> <span id="vgLinkText">Watch on YouTube</span>
+              </a>
+            </div>
+          </div>
+          <ol class="vg-list" id="vgList" aria-label="Video playlist"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section" id="why">
+      <div class="container">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="why-grid">
+          <div class="why">
+            <i class="fa-solid fa-award" aria-hidden="true"></i>
+            <h3>Since 1997</h3>
+            <p>Major fire &amp; safety suppliers for more than 25 years.</p>
+          </div>
+          <div class="why">
+            <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+            <h3>Govt Approved</h3>
+            <p>Approved contractor with the Dir. Fire &amp; Emergency Services, Goa.</p>
+          </div>
+          <div class="why">
+            <i class="fa-solid fa-warehouse" aria-hidden="true"></i>
+            <h3>In-house Service Station</h3>
+            <p>Testing, refilling and PESO testing under one roof in Verna.</p>
+          </div>
+          <div class="why">
+            <i class="fa-solid fa-circle-nodes" aria-hidden="true"></i>
+            <h3>Single Point of Contact</h3>
+            <p>Consultancy, supply, installation and certification by one team.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section" id="team">
+      <div class="container">
+        <h2 class="section-title">Our Team</h2>
+        <p class="section-subtitle">The people behind every installation, service and certificate.</p>
+        <ul class="team-grid">
+          <li class="member"><img src="assets/img/team/baylon.jpg" alt="Baylon Sequeira Vaz" loading="lazy"><div class="member-info"><h3>Baylon Sequeira Vaz</h3><p>C.E.O</p></div></li>
+          <li class="member"><img src="assets/img/team/sheila.jpg" alt="Sheila Sequeira Vaz" loading="lazy"><div class="member-info"><h3>Sheila Sequeira Vaz</h3><p>Director</p></div></li>
+          <li class="member"><img src="assets/img/team/nicole.jpg" alt="Nicole Sequeira Vaz" loading="lazy"><div class="member-info"><h3>Nicole Sequeira Vaz</h3><p>Manager Accounts, Administration &amp; Marketing</p></div></li>
+          <li class="member"><img src="assets/img/team/reshma.jpg" alt="Reshma Fernandes" loading="lazy"><div class="member-info"><h3>Reshma Fernandes</h3><p>Manager Sales &amp; Purchase</p></div></li>
+          <li class="member"><img src="assets/img/team/ashok.jpg" alt="Ashok Sawant" loading="lazy"><div class="member-info"><h3>Ashok Sawant</h3><p>Site Manager</p></div></li>
+          <li class="member"><img src="assets/img/team/mahesh.jpg" alt="Mahesh Naik" loading="lazy"><div class="member-info"><h3>Mahesh Naik</h3><p>Shop Floor Manager</p></div></li>
+          <li class="member"><img src="assets/img/team/arbin.jpg" alt="Arbin Indwar" loading="lazy"><div class="member-info"><h3>Arbin Indwar</h3><p>Technician</p></div></li>
+          <li class="member"><img src="assets/img/team/sachin.jpg" alt="Sachin Karadi" loading="lazy"><div class="member-info"><h3>Sachin Karadi</h3><p>Technician</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CLIENTS -->
+    <section class="section" id="clients">
+      <div class="container">
+        <h2 class="section-title">Our Clients</h2>
+        <p class="section-subtitle">Trusted by leading hotels, resorts and industries.</p>
+
+        <div class="client-group">
+          <h3 class="client-group-title">Hotels &amp; Resorts</h3>
+          <div class="logo-carousel" data-clients="hotels">
+            <ul class="logo-track"></ul>
+          </div>
+        </div>
+
+        <div class="client-group">
+          <h3 class="client-group-title">Industrial</h3>
+          <div class="logo-carousel" data-clients="industrial" data-direction="reverse">
+            <ul class="logo-track"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEETING ROOMS -->
+    <section class="section" id="rooms">
+      <div class="container">
+        <div class="rooms">
+          <div class="rooms-text">
+            <p class="kicker">Available on Rent</p>
+            <h2 class="heading-left">Training, Conference &amp; Meeting Rooms</h2>
+            <p class="rooms-lead">Host your next training programme, seminar or board meeting at our Verna facility. You can rent our rooms with much more flexibility and cost benefit than a hotel venue.</p>
+            <ul class="rooms-features">
+              <li><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i><div><strong>Training hall</strong><span>Classroom seating for workshops and safety training.</span></div></li>
+              <li><i class="fa-solid fa-people-group" aria-hidden="true"></i><div><strong>Conference hall</strong><span>Theatre or table layouts for seminars and presentations.</span></div></li>
+              <li><i class="fa-solid fa-handshake-simple" aria-hidden="true"></i><div><strong>Meeting room</strong><span>A private boardroom table for smaller groups.</span></div></li>
+              <li><i class="fa-solid fa-display" aria-hidden="true"></i><div><strong>Ready to use</strong><span>Projector, air conditioning and a welcoming reception.</span></div></li>
+            </ul>
+            <div class="rooms-actions">
+              <a class="btn" href="https://wa.me/919326127464?text=Hi%2C%20I%20would%20like%20to%20enquire%20about%20renting%20your%20training%20%2F%20conference%20rooms." target="_blank" rel="noopener">Enquire on WhatsApp</a>
+              <a class="text-link" href="#videos" data-play-video="vm-1025082556"><i class="fa-solid fa-circle-play" aria-hidden="true"></i> Take the virtual tour</a>
+            </div>
+          </div>
+          <div class="rooms-gallery" id="roomsGallery"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CSR -->
+    <section class="section csr-section" id="csr">
+      <div class="container">
+        <div class="csr-hero">
+          <div class="csr-hero-text">
+            <p class="kicker">CSR in Organic Farming</p>
+            <h2 class="heading-left">Vision Farms</h2>
+            <p class="csr-lead">We are fire &amp; safety suppliers, but in spite of our busy schedule we also take care of the environment. It is time we learn to 'give back' and make our Earth green.</p>
+            <p>At our farms in Solva-Raia and Neturlem, Sanguem, Goa, near the Neturlem bubbling lake, we have turned agricultural land into a productive resource with a lot of flora and fauna. And we work there just like we do at work: as Team Vision Safety.</p>
+            <ul class="csr-facts">
+              <li><strong>14</strong><span>acre farm, Solva-Raia &amp; Neturlem</span></li>
+              <li><strong>7</strong><span>acre farm, Neturlem, Sanguem</span></li>
+              <li><strong>100%</strong><span>organic, with in-house natural manure</span></li>
+            </ul>
+          </div>
+          <figure class="csr-hero-img">
+            <img src="assets/img/csr-rooms/farm-house.jpg" alt="The farmhouse at Vision Farms, Sanguem, Goa" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="csr-grow">
+          <div class="grow">
+            <i class="fa-solid fa-carrot" aria-hidden="true"></i>
+            <h3>Vegetables</h3>
+            <p>Radish, okra (lady fingers), local chillies, aubergine (brinjals), bitter gourd and long beans.</p>
+          </div>
+          <div class="grow">
+            <i class="fa-solid fa-tree" aria-hidden="true"></i>
+            <h3>Plantations</h3>
+            <p>A huge plantation of bananas, mangoes, coconuts, cashew, betelnut and kokum.</p>
+          </div>
+          <div class="grow">
+            <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+            <h3>Medicinal Plants</h3>
+            <p>Our thrill is experimenting with medicinal plants like Simarouba (Lakshmi Taru) and Soursop.</p>
+          </div>
+        </div>
+
+        <blockquote class="csr-quote">
+          <p>Nature has long been known as a place to find tranquility and healing. At Vision Farms we are going back to this age-old agricultural tradition... naturally.</p>
+        </blockquote>
+
+        <div class="csr-gallery-head">
+          <h3>Our 7 acre farm at Neturlem, Sanguem, Goa</h3>
+        </div>
+        <div class="csr-mosaic" id="csrGallery"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Visit us or get in touch for sales &amp; service of fire fighting appliances, SCBA and PAPR.</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Vision Safety India</h3>
+            <ul class="contact-list">
+              <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Vision Safety, Phase 1, Plot S3 &amp; S5, Verna Industrial Estate, Goa, India.</span></li>
+              <li><i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <span>
+                  <a href="tel:+919326127464">+91 93261 27464</a><br>
+                  <a href="tel:+919326127199">+91 93261 27199</a><br>
+                  <a href="tel:+917798988905">+91 77989 88905</a>
+                </span>
+              </li>
+              <li><i class="fa-brands fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/919326127464" target="_blank" rel="noopener">WhatsApp +91 93261 27464</a></li>
+              <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:info.visionsafetyindia@gmail.com">info.visionsafetyindia@gmail.com</a></li>
+              <li><i class="fa-solid fa-clock" aria-hidden="true"></i><span>09:00 am to 06:00 pm</span></li>
+            </ul>
+            <a class="directions" href="https://www.google.com/maps/dir/?api=1&amp;destination=Vision+Safety+Verna+Industrial+Estate+Goa" target="_blank" rel="noopener">
+              <i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Get directions
+            </a>
+          </div>
+          <div class="map-wrap">
+            <iframe title="Map to Vision Safety, Verna Industrial Estate, Goa" src="https://www.google.com/maps?q=Vision+Safety,+Verna+Industrial+Estate,+Goa&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="Vision Safety India logo" loading="lazy">
+        <p>End-to-end fire &amp; safety solutions from Goa since 1997, protecting human lives at workplace.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#breathing">Breathing Solutions</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#rooms">Meeting Rooms</a></li>
+          <li><a href="#csr">Vision Farms (CSR)</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li>Phase 1, Plot S3 &amp; S5, Verna Industrial Estate, Goa</li>
+          <li><a href="tel:+919326127464">+91 93261 27464</a></li>
+          <li><a href="mailto:info.visionsafetyindia@gmail.com">info.visionsafetyindia@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Vision Safety India. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/919326127464" class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button type="button" class="lb-close" aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    <button type="button" class="lb-nav lb-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+    <figure class="lb-figure">
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCaption"></figcaption>
+    </figure>
+    <button type="button" class="lb-nav lb-next" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
